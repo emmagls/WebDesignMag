@@ -1,10 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    margin: 0;
+    font-family: "poppins", sans-serif;
+}
+
+
+h1{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+.articles-image{
+    width: 600px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.avatar{
+    width: 75px;
+    height: 75px;
+    object-fit: cover;
+    border-radius: 100%;
+}
+
+#avatar{
+    display: flex;
+    flex-direction: row;
+    gap: 18px;
+    align-items: center;
+}
+
 .navigation{
     display: flex;
     justify-content: space-between;
     padding-left: 16px;
     padding-right: 16px;
     padding-top: 16px;
-    padding-bottom: 50px;
+    padding-bottom: 16px;
 }
 
 ul{
@@ -13,7 +47,21 @@ ul{
     align-items: center;
     justify-content: center;
     gap: 40px;
+    padding: 0;
+    margin: 0;
     color: black;
+}
+
+ul.ul-articles{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    padding: 15px;
+    margin: 0;
+    color: black;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
 }
 
 .logo{
@@ -52,3 +100,126 @@ ul{
     height: 100%; 
     z-index: -1;
  }
+
+ .button-plus{
+    border-radius: 4px;
+    text-decoration: none;
+    padding: 8px;
+    background: white;
+    border: 2px solid white;
+    justify-content: center;
+    gap: 20px;
+    width: 240px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    color: white; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 4px; 
+    cursor: pointer; 
+    transition: background-color 0.5s ease;
+ }
+ .button-plus:hover{
+    background-color: #0b709f; 
+    color: white;
+ }
+
+ .suscribe-button{
+    border-radius: 4px;
+    text-decoration: none;
+    padding: 8px;
+    background: #0b709f;
+    border: 2px solid #0b709f;
+    justify-content: center;
+    gap: 20px;
+    width: 240px;
+    height: auto;
+    display: flex;
+    align-items: center
+ }
+
+ a{
+    text-decoration: none;
+    color: black;
+    -webkit-transition: color 0.5s;
+    transition: color 0.5s;
+ }
+ a:hover{
+    color: grey;
+ }
+
+ #blue a {
+    color: black;
+    transition: color 0.3s ease; 
+}
+#blue a:hover {
+    color: #0b709f; 
+}
+
+ h2{
+    font-weight: bold;
+    margin: 0;
+ }
+
+ h4{
+    margin: 0;
+ }
+
+ .articles {
+    display: flex; 
+    align-items: center; 
+    padding: 35px;
+}
+
+.texte-articles {
+    padding-left: 10px;
+}
+
+.auteurs-image{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 100%;
+    padding: 15px;
+}
+
+.prenom{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    align-items: center;
+    text-align: center;
+}
+
+#prenom{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    justify-content: space-around;
+}
+
+.themes{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    align-items: center;
+    text-align: center;
+}
+
+#themes{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    justify-content: space-around;
+}
+
+.back-themes{
+    background-color: black;
+    color: white;
+}
+
+footer{
+    background-color: black;
+    color: white;
+}

@@ -8,38 +8,38 @@
         "description": "Découvrez les innovations, les techniques et les exemples inspirants qui définiront le webdesign cette année.",
         "date": "25 Avril 2024",
         "theme": "Webdesign",
-        "image":""
+        "image_url":"https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/229172083/original/f3158d737421ef4a7b0c0956561cf7110f88c710/provide-work-quality-work.jpg"
       },
       "articles": [
         {
           "titre": "Les principes de base de l'accessibilité en webdesign",
           "date": "20 Avril 2024",
           "theme": "Accessibilité",
-          "image":""
+          "image_url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7u6r5eof9HkYsZ6ZVSbVp-cQBkEqJwF9XjvJqaG7SfA&s"
         },
         {
           "titre": "Entretien avec un designer UI/UX renommé : conseils et inspirations",
           "date": "15 Avril 2024",
           "theme": "Interview",
-          "image":""
+          "image_url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0_Bv3Od6OOfbmy952rqQ60CymddR_90ntMQ&s"
         },
         {
           "titre": "Top 10 des sites web les plus créatifs de l'année",
           "date": "5 Avril 2024",
           "theme": "Inspiration",
-          "image":""
+          "image_url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOo7bWeD4KjjVrVZriiQpbQbuuplfHLj57Ug&s"
         },
         {
           "titre": "Analyse des tendances de couleur et de typographie en webdesign",
           "date": "28 Mars 2024",
           "theme": "Tendances",
-          "image":""
+          "image_url":"https://assets-global.website-files.com/62cc427c7c9d4b0697f8fd27/6576da544499f95ed9c81588_Trends.jpg"
         },
         {
           "titre": "L'importance du responsive design dans le monde mobile",
           "date": "20 Mars 2024",
           "theme": "Responsive design",
-          "image":""
+          "image_url":"https://www.lerefletdulac.com/wp-content/uploads/sites/32/2023/09/1c33d38533056df337343dv_00091277-1000x667.jpg"
         }
       ],
       "themes": [
@@ -66,18 +66,21 @@
       ],
       "auteurs": [
         {
+          "image": "https://img.freepik.com/photos-gratuite/jeune-belle-femme-pull-chaud-rose-aspect-naturel-souriant-portrait-isole-cheveux-longs_285396-896.jpg",
           "prenom": "Émilie",
-          "typeExperience": "Designer UI/UX",
+          "typeExperience": "Designer UI/UX. ",
           "presentation": "Avec une passion pour l'interface utilisateur et l'expérience utilisateur, je partage mes connaissances et mes idées pour créer des designs web exceptionnels."
         },
         {
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJIRrrPJTXOoSTt8NHxPi7zhBiT432JS5KCQ&s",
           "prenom": "Thomas",
-          "typeExperience": "Consultant en webdesign",
+          "typeExperience": "Consultant en webdesign. ",
           "presentation": "Je travaille avec des entreprises pour améliorer leur présence en ligne grâce à un design web efficace et esthétique, et je partage mes conseils à travers des articles et des interviews."
         },
         {
+          "image": "https://media.istockphoto.com/id/969233490/fr/photo/jeune-femme-africaine-souriante-au-coucher-du-soleil.jpg?s=612x612&w=0&k=20&c=o4XBPaSYdU5hHvfgbYGeTVK1i_0lmnxnIbbBpGC6MVw=",
           "prenom": "Sophie",
-          "typeExperience": "Journaliste spécialisée en design web",
+          "typeExperience": "Journaliste spécialisée en design web. ",
           "presentation": "En tant que spécialiste du design web, je vous tiens informé des dernières tendances et des meilleures pratiques pour créer des sites web modernes et performants."
         }
       ]
