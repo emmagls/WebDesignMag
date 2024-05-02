@@ -9,13 +9,14 @@ body{
 h1{
     display: flex;
     justify-content: center;
-    margin: 50px;
+    margin: 15px;
 }
 
 .articles-image{
     width: 600px;
     height: 400px;
     object-fit: cover;
+    border-radius: 5%;
 }
 
 .avatar{
@@ -146,7 +147,7 @@ ul.ul-articles{
     transition: color 0.5s;
  }
  a:hover{
-    color: grey;
+    color: white;
  }
 
  #blue a {
@@ -176,13 +177,19 @@ ul.ul-articles{
     padding-left: 10px;
 }
 
-.auteurs-image{
-    width: 150px;
+
+.image-zoom {
+    width: 150px; 
     height: 150px;
-    object-fit: cover;
     border-radius: 100%;
-    padding: 15px;
-}
+    object-fit: cover;
+    padding: 20px;
+    transition: transform 0.3s ease; 
+  }
+  
+  .image-zoom:hover {
+    transform: scale(1.2); 
+  }
 
 .prenom{
     display: flex;
@@ -197,6 +204,7 @@ ul.ul-articles{
     flex-direction: row;
     gap: 16px;
     justify-content: space-around;
+    padding: 10px;
 }
 
 .themes{
@@ -217,9 +225,39 @@ ul.ul-articles{
 .back-themes{
     background-color: black;
     color: white;
+    padding: 10px;
 }
 
 footer{
     background-color: black;
     color: white;
+    padding: 25px;
+    text-align: center
+}
+
+main{
+    padding: 10px;
+}
+
+.button-lire{
+    border-radius: 4px;
+    text-decoration: none;
+    padding: 8px;
+    background: #0b709f;
+    border: 2px solid #0b709f;
+    justify-content: center;
+    gap: 20px;
+    width: 100px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    transition: transform 0.9s ease;
+}
+
+.button-lire:hover{
+    transform: scale(1.2);
+}
+
+.newsletter{
+    text-align: center;
 }
