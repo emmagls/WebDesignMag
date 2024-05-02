@@ -103,6 +103,9 @@ function getData() {
         const themes = document.getElementById('themes');
        let listThemes = data.journal.themes;
         console.log(listThemes);
+
+        let nav = document.getElementById('blue');
+        console.log(nav);
   
         listThemes.forEach(theme => {
             let nom = theme.nom;
@@ -114,7 +117,10 @@ function getData() {
          <p>${description}</p>
        </div>`
             
-          themes.insertAdjacentHTML("beforeend", cardThemes );
+          let li = `<li class="afficher-themes"><a href ="#">${nom}</a></li>`
+
+          themes.insertAdjacentHTML("beforeend", cardThemes);
+          nav.insertAdjacentHTML("beforeend", li);
         });
       }
 

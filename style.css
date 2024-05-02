@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Jersey+20+Charted&display=swap');
+
 body{
     margin: 0;
     font-family: "poppins", sans-serif;
@@ -70,7 +72,6 @@ ul.ul-articles{
     align-items: center;
 }
 .hero-header{
-    padding-bottom: 16px;
     position: relative;
 }
 .background-hero{
@@ -138,6 +139,10 @@ ul.ul-articles{
     height: auto;
     display: flex;
     align-items: center
+ }
+
+ .suscribe-button a{
+    color: white;
  }
 
  a{
@@ -236,7 +241,8 @@ footer{
 }
 
 main{
-    padding: 10px;
+    padding-top: 18px;
+    background-color: #E3F0FC;
 }
 
 .button-lire{
@@ -258,6 +264,31 @@ main{
     transform: scale(1.2);
 }
 
+.button-lire a{
+    color: white;
+}
+
 .newsletter{
     text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 30px;
+
 }
+
+.afficher-themes {
+    color: black;
+    transition: color 0.3s ease;
+}
+.afficher-themes:hover{
+    color: #0b709f; 
+}
+
+.autre-article{
+    padding-left: 35px
+}
+
+.photo-logo{
+    width: 75px;
+    height: 75px;
+}
+
