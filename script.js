@@ -124,7 +124,7 @@ function getData() {
         });
       }
 
-
+      function afficherMap()  {
       var map = L.map('map').setView([48.828191380882934, 2.314210535817235], 5);
 
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -134,7 +134,7 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 L.marker([48.828191380882934, 2.314210535817235]).addTo(map)
   .bindPopup('Ecole de Web Design')
   .openPopup();
-
+}
     
 
 
@@ -145,6 +145,7 @@ L.marker([48.828191380882934, 2.314210535817235]).addTo(map)
         afficherListAuteurs();
         afficherListThemes();
         afficherTexteAppelAction();
+        afficherMap();
        /// FIN DU CODE
      })
      .catch((error) => console.error('Erreur lors de la lecture des données :', error));
