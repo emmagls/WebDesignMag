@@ -124,6 +124,20 @@ function getData() {
         });
       }
 
+
+      var map = L.map('map').setView([48.828191380882934, 2.314210535817235], 5);
+
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  attribution: '© OpenStreetMap contributors'
+}).addTo(map);
+
+L.marker([48.828191380882934, 2.314210535817235]).addTo(map)
+  .bindPopup('Ecole de Web Design')
+  .openPopup();
+
+    
+
+
         afficherTitre();
         afficherArticlePrincipal();
         afficherPhraseAccroche();
